@@ -17,7 +17,7 @@ const Header = () => {
     const [isDropdownOpen, setDropdownOpen] = useState(false);
     const headerRef = useRef(null);
 
-    const {auth, setAuth, LogOut} = useAuth();
+    const { auth, setAuth, LogOut } = useAuth();
     const [cartItems, setCartItems] = useCart();
 
     let closeTimeout;
@@ -57,7 +57,7 @@ const Header = () => {
         <header ref={headerRef}>
             <nav
                 className="container px-4 md:px-[50px]"
-                // onMouseLeave={closeDropdown}
+            // onMouseLeave={closeDropdown}
             >
                 <div className=" flex items-center justify-between gap-3 md:gap-14 w-full flex-col md:flex-row sm:flex-row lg:flex-row">
                     {/* primary div */}
@@ -78,13 +78,12 @@ const Header = () => {
                         </div>
                     </div>
 
-                    {/* secondary div */}
-                    <div className="flex items-center justify-between gap-[50px] w-[70%] mb-4 md:mb-0">
-                        {/* home */}
+                    <div className="flex justify-end items-center gap-x-8 w-full md:w-auto mb-4 md:mb-0">
+                        {/* Home */}
                         <div className="flex items-center group">
                             <NavLink to="/" className="flex items-center gap-1">
                                 <BiHomeSmile className="text-[22px]" />
-                                <span className="text-[18px] hidden md:block lg:block group-hover:text-slate-700">
+                                <span className="text-[18px] hidden md:block group-hover:text-slate-700">
                                     Home
                                 </span>
                             </NavLink>
@@ -92,11 +91,10 @@ const Header = () => {
 
                         {/* Account */}
                         <div
-                            className={`flex items-center relative cursor-pointer group ${
-                                auth.user
-                                    ? "hover:bg-slate-100"
-                                    : "hover:bg-primaryBlue"
-                            } rounded-md p-1`}
+                            className={`flex items-center relative cursor-pointer group ${auth.user
+                                ? "hover:bg-slate-100"
+                                : "hover:bg-primaryBlue"
+                                } rounded-md p-1`}
                             onMouseEnter={toggleDropdown}
                             onMouseLeave={closeDropdown}
                         >
@@ -153,11 +151,10 @@ const Header = () => {
                                         )}
                                         <li className="p-1 hover:bg-slate-100 rounded-md">
                                             <Link
-                                                to={`${
-                                                    auth?.user?.role === 1
-                                                        ? "/admin"
-                                                        : "/user"
-                                                }/dashboard`}
+                                                to={`${auth?.user?.role === 1
+                                                    ? "/admin"
+                                                    : "/user"
+                                                    }/dashboard`}
                                                 className="flex items-center gap-3"
                                             >
                                                 <AiOutlineUser className="text-[14px]" />
@@ -182,11 +179,10 @@ const Header = () => {
                                         )}
                                         <li className="p-1 hover:bg-slate-100 rounded-md">
                                             <Link
-                                                to={`${
-                                                    auth?.user?.role === 1
-                                                        ? "/admin"
-                                                        : "/user"
-                                                }/orders`}
+                                                to={`${auth?.user?.role === 1
+                                                    ? "/admin"
+                                                    : "/user"
+                                                    }/orders`}
                                                 className="flex items-center gap-3"
                                             >
                                                 <BsBox className="text-[14px]" />
