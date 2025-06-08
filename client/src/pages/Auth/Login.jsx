@@ -100,16 +100,16 @@ const Login = () => {
                         {/* left view  */}
                         <div className=" w-full md:w-[40%] lg:w-[40%] h-full bg-primaryBlue">
                             <div className="flex gap-2 md:gap-6 flex-col h-full mt-5 md:mt-10 px-6 ">
-                                <div className="text-white leading-8 text-[22px] font-[600]">
-                                    <h2>Log in</h2>
+                                <div className="text-white leading-8 text-[22px] font-[600] ">
+                                    <h2 className="text-3xl">Log in</h2>
                                 </div>
-                                <div className="text-slate-300 text-base leading-7 font-[400]">
+                                <div className="text-slate-300 text-base leading-7 font-[400] mt-[10rem]">
                                     <p>
                                         Get access to your Orders, Wishlist and
                                         Recommendations
                                     </p>
 
-                                    <p className="text-xs">
+                                    <p className="text-xs ">
                                         <span>
                                             User <br />
                                         </span>
@@ -118,12 +118,11 @@ const Login = () => {
                                         <span>
                                             Admin <br />
                                         </span>
-                                        username - store@flipkart.com <br />
+                                        username - store@alphacart.com <br />
                                         password - admin123
                                     </p>
                                 </div>
                                 <div className="">
-                                    <img src={authImg} alt="auth image" />
                                 </div>
                             </div>
                         </div>
@@ -199,7 +198,7 @@ const Login = () => {
                                         <div className="text-[9px] text-slate-500 ">
                                             <p>
                                                 By continuing, you agree to
-                                                Flipkart&apos;s Terms of Use and
+                                                AlphaCart&apos;s Terms of Use and
                                                 Privacy Policy.
                                             </p>
                                         </div>
@@ -226,7 +225,7 @@ const Login = () => {
                                     to="/register"
                                     className=" text-primaryBlue font-[500] text-[12px] "
                                 >
-                                    New to Flipkart? Create an account
+                                    New to AlphaCart? Create an account
                                 </Link>
                             </div>
                         </div>

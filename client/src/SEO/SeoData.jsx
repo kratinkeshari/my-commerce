@@ -11,7 +11,7 @@ const SeoData = ({ title, description, keywords }) => (
 
 SeoData.defaultProps = {
     title: "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
-    description: "Flipkart online shopping platform clone by Aashish Dhiman",
+    description: "AlphaCart online shopping platform",
     keywords: ["shopping", "react project", "mern project", "nodejs", "online"],
 };
 

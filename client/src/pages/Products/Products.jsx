@@ -44,7 +44,7 @@ const Products = () => {
 
     useEffect(() => {
         toast(
-            "The backend is starting up, please wait for a minute if the loader is visible."
+            "Nothing to show!"
         );
 
         //fetching filtered products from sever
@@ -123,7 +123,7 @@ const Products = () => {
 
     return (
         <>
-            <SeoData title="All Products | Flipkart" />
+            <SeoData title="All Products | AlphaCart" />
 
             <MinCategory />
             <main className="w-full pt-2 pb-5 sm:mt-0">

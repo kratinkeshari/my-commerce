@@ -47,7 +47,7 @@ const SearchBar = () => {
     return (
         <>
             <div
-                className="w-[100%] sm:w-[70%] relative flex flex-col items-center search-container"
+                className="w-full sm:w-[90%] md:w-[600px] max:w-[800px] relative flex flex-col items-center search-container"
                 onBlur={() =>
                     setTimeout(() => {
                         setOpen(false);

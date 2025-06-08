@@ -98,7 +98,7 @@ const Register = () => {
                 <div className="container bg-primaryBg mt-5 sm:mt-0 md:mt-0 lg:mt-0 py-[2px]">
                     <div className="flex items-center flex-col sm:flex-row md:flow-row lg:flex-row my-10 mx-auto w-full sm:w-[70vw] md:w-[70vw] lg:w-[70vw] min-h-[500px] md:h-[80vh] lg:h-[80vh] bg-white shadow-[0px_0px_8px_2px_rgba(212,212,212,0.6)] ">
                         {/* left view  */}
-                        <div className=" w-full md:w-[40%] lg:w-[40%] h-full bg-primaryBlue">
+                        <div className=" w-full md:w-[40%] lg:w-[40%] h-full bg-primaryBlue ">
                             <div className="flex gap-6 flex-col h-full mt-10 px-6 ">
                                 <div className="text-white leading-8 text-[22px] font-[600]">
                                     <h2>Looks like you&apos;re new here!</h2>
@@ -108,9 +108,6 @@ const Register = () => {
                                         Sign up with the required details to get
                                         started
                                     </p>
-                                </div>
-                                <div className="mt-14">
-                                    <img src={auth} alt="auth image" />
                                 </div>
                             </div>
                         </div>

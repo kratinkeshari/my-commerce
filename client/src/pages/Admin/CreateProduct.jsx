@@ -189,7 +189,7 @@ const CreateProduct = () => {
 
     return (
         <>
-            <SeoData title="New Product | Flipkart" />
+            <SeoData title="New Product | AlphaCart" />
             <ScrollToTopOnRouteChange />
 
             {isSubmit ? (

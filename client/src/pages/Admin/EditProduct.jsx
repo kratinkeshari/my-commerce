@@ -259,7 +259,7 @@ const EditProduct = () => {
 
     return (
         <>
-            <SeoData title="New/Update Product | Flipkart" />
+            <SeoData title="New/Update Product | AlphaCart" />
             <ScrollToTopOnRouteChange />
 
             {isSubmit || loading ? (

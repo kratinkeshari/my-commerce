@@ -4,7 +4,7 @@ const Product = ({ image, name, offer, tag }) => {
     return (
         <Link
             to="/products"
-            className="flex flex-col items-center gap-1.5 p-6 cursor-pointer"
+            className="flex flex-col items-center gap-y-1.5  py-6 px-1 cursor-pointer"
         >
             <div className="w-36 h-36 transform hover:scale-110 transition-transform duration-150 ease-out">
                 <img
