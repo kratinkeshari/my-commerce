@@ -2,6 +2,7 @@ import "./App.css";
 import Layout from "./layouts/Layout";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Chatbot from "./components/chatbot/chatbot";
 
 function App() {
     const { pathname } = useLocation();
@@ -16,6 +17,7 @@ function App() {
     return (
         <>
             <Layout />
+            <Chatbot/>
         </>
     );
 }
