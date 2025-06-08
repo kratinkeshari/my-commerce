@@ -121,7 +121,7 @@ const Shipping = () => {
 
   return (
     <>
-      <SeoData title="Flipkart: Shipping Details" />
+      <SeoData title="AlphaCart: Shipping Details" />
       <main className="w-full pt-8">
         <div className="flex flex-col sm:flex-row gap-3.5 w-full sm:w-11/12 mx-0 px-2 sm:mx-8 mt-4 overflow-hidden">
           <div className="flex-1">

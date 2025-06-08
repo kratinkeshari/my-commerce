@@ -68,7 +68,7 @@ const Header = () => {
                                 <img
                                     src={logo}
                                     alt="logo"
-                                    className="max-h-fit"
+                                    className="max-h-[3.75rem]"
                                 />
                             </Link>
 
@@ -78,12 +78,12 @@ const Header = () => {
                         </div>
                     </div>
 
-                    <div className="flex justify-end items-center gap-x-8 w-full md:w-auto mb-4 md:mb-0">
+                    <div className="flex justify-end items-center gap-x-4 w-full md:w-auto mb-4 md:mb-0">
                         {/* Home */}
                         <div className="flex items-center group">
                             <NavLink to="/" className="flex items-center gap-1">
-                                <BiHomeSmile className="text-[22px]" />
-                                <span className="text-[18px] hidden md:block group-hover:text-slate-700">
+                                <BiHomeSmile className="text-[16px]" />
+                                <span className="text-sm hidden md:block group-hover:text-slate-700">
                                     Home
                                 </span>
                             </NavLink>
@@ -100,8 +100,8 @@ const Header = () => {
                         >
                             {auth.user ? (
                                 <div className="flex items-center gap-1 ">
-                                    <AiOutlineUser className="text-[22px] " />
-                                    <span className="text-[18px] max-w-fit hidden md:block lg:block ">
+                                    <AiOutlineUser className="text-[16px] " />
+                                    <span className="text-sm max-w-fit hidden md:block lg:block ">
                                         <p>{auth.user.name.split(" ")[0]}</p>
                                     </span>
                                     <span>
@@ -114,8 +114,8 @@ const Header = () => {
                                         to="/login"
                                         className=" flex gap-1 group-hover:text-white"
                                     >
-                                        <AiOutlineUser className="text-[22px] group-hover:text-white" />
-                                        <span className="text-[18px] max-w-fit hidden md:block lg:block ">
+                                        <AiOutlineUser className="text-[16px] group-hover:text-white" />
+                                        <span className="text-sm max-w-fit hidden md:block lg:block ">
                                             <p>Sign in</p>
                                         </span>
                                     </Link>
@@ -142,8 +142,8 @@ const Header = () => {
                                                     to="/register"
                                                     className="flex items-center gap-3"
                                                 >
-                                                    <MdLogin className="text-[14px]" />
-                                                    <span className="text-[16px]">
+                                                    <MdLogin className="text-[16px]" />
+                                                    <span className="text-sm">
                                                         Sign up
                                                     </span>
                                                 </Link>
@@ -157,8 +157,8 @@ const Header = () => {
                                                     }/dashboard`}
                                                 className="flex items-center gap-3"
                                             >
-                                                <AiOutlineUser className="text-[14px]" />
-                                                <span className="text-[16px]">
+                                                <AiOutlineUser className="text-[16px]" />
+                                                <span className="text-sm">
                                                     My Profile
                                                 </span>
                                             </Link>
@@ -170,8 +170,8 @@ const Header = () => {
                                                     to="/user/wishlist"
                                                     className="flex items-center gap-3"
                                                 >
-                                                    <AiOutlineHeart className="text-[14px]" />
-                                                    <span className="text-[16px]">
+                                                    <AiOutlineHeart className="text-[16px]" />
+                                                    <span className="text-sm">
                                                         Wishlist
                                                     </span>
                                                 </Link>
@@ -185,8 +185,8 @@ const Header = () => {
                                                     }/orders`}
                                                 className="flex items-center gap-3"
                                             >
-                                                <BsBox className="text-[14px]" />
-                                                <span className="text-[16px]">
+                                                <BsBox className="text-[16px]" />
+                                                <span className="text-sm">
                                                     Orders
                                                 </span>
                                             </Link>
@@ -199,8 +199,8 @@ const Header = () => {
                                                     to="/login"
                                                     className="flex items-center gap-3"
                                                 >
-                                                    <MdLogout className="text-[14px]" />
-                                                    <span className="text-[16px]">
+                                                    <MdLogout className="text-[16px]" />
+                                                    <span className="text-sm">
                                                         Logout
                                                     </span>
                                                 </Link>
@@ -221,9 +221,9 @@ const Header = () => {
                                     <span className="absolute w-4 h-4 text-[11px] text-center font-semibold left-2 bottom-3 text-white bg-red-500 rounded-[50%] ">
                                         {cartItems?.length}
                                     </span>
-                                    <BsCart2 className="text-[22px]" />
+                                    <BsCart2 className="text-[16px]" />
                                     <span className="hidden md:block lg:block group-hover:text-slate-700">
-                                        <p className="text-[18px]">Cart</p>
+                                        <p className="text-sm">Cart</p>
                                     </span>
                                 </NavLink>
                             </div>

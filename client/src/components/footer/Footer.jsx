@@ -11,7 +11,7 @@ const Footer = () => (
 
                 <div className="mt-4 ">
                     <span className="inline-flex justify-center mt-2 sm:ml-3 sm:mt-0 sm:justify-start">
-                        <a className="text-gray-500 cursor-pointer hover:text-blue">
+                        <a className="text-gray-500 cursor-pointer hover:text-gray-700">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
@@ -165,7 +165,7 @@ const Footer = () => (
                         </li>
                         <li className="mt-3">
                             <a className="cursor-pointer hover:underline underline-offset-4">
-                                1860-200-9898
+                                1800-XXX-XXX
                             </a>
                         </li>
                     </nav>
@@ -175,8 +175,7 @@ const Footer = () => (
         <div className="container px-5 pb-5 mx-auto text-center">
             <a href="https://www.linkedin.com/in/aashish-dhiman/">
                 <p className="text-md text-gray-700 capitalize xl:text-center">
-                    © {new Date().getFullYear()} All rights reserved - Aashish
-                    Dhiman
+                    © {new Date().getFullYear()} All rights reserved - AlphaCart
                 </p>
             </a>
         </div>
