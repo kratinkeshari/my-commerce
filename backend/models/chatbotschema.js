@@ -20,6 +20,7 @@ const chatbotschema = mongoose.Schema({
         type:String,
         require:true,
     },
+    
 });
 
 const Chatbotschema = mongoose.models.Chatbotschema || mongoose.model('Chatbotschema', chatbotschema);
