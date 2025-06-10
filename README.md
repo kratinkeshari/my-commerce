@@ -18,7 +18,7 @@ This is a eCommerce project developed using the MERN (MongoDB, Express.js, React
   - Password: test123
 
 - **ADMIN**
-  - Email: store@flipkart.com
+  - Email: store@alphacart.com
   - Password: admin123
 
 ## Features
