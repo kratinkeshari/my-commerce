@@ -337,12 +337,12 @@ const ProductDetails = () => {
                                         <span>
                                             {product?.numOfReviews} Reviews
                                         </span>
-                                        <span className="w-[80px] object-contain">
+                                        {/* <span className="w-[80px] object-contain">
                                             <img
                                                 src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png"
                                                 alt="f-assured"
                                             />
-                                        </span>
+                                        </span> */}
                                     </span>
                                     {/* <!-- rating badge --> */}
 
