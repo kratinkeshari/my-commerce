@@ -282,7 +282,7 @@ const UserProfile = () => {
                     </div>
                     <div className="mt-4">
                         <h5 className="text-[14px] font-[500]">
-                            When will my Flipkart account be updated with the
+                            When will my AlphaCart account be updated with the
                             new email address (or mobile number)?
                         </h5>
                         <p className="text-[12px] text-slate-500 mt-2">
@@ -297,7 +297,7 @@ const UserProfile = () => {
                             email address?
                         </h5>
                         <p className="text-[12px] text-slate-500 mt-2">
-                            Flipkart has a single sign-on policy. Any changes
+                            AlphaCart has a single sign-on policy. Any changes
                             will reflect in your Seller account also.
                         </p>
                     </div>
