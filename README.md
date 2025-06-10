@@ -47,7 +47,7 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/your-name/repo-name
-   cd E-Commerce
+   cd my-commerce
    ```
 
 2. **Setup the Backend:**
