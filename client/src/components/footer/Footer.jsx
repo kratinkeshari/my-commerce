@@ -187,11 +187,11 @@ const Footer = () => (
             </div>
         </div>
         <div className="container px-5 pb-5 mx-auto text-center">
-            <a href="https://www.linkedin.com/in/aashish-dhiman/">
+            
                 <p className="text-md text-gray-700 capitalize xl:text-center">
                     © {new Date().getFullYear()} All rights reserved - AlphaCart
                 </p>
-            </a>
+        
         </div>
     </footer>
 );
