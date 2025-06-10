@@ -7,8 +7,6 @@ This is a eCommerce project developed using the MERN (MongoDB, Express.js, React
 - [Features](#features)
 - [Requirements](#requirements)
 - [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [Environment Variables](#environment-variables)
 
 ## Test Users
