@@ -30,7 +30,7 @@ This is a eCommerce project developed using the MERN (MongoDB, Express.js, React
 - **Responsive Design with Tailwind CSS and Material UI:** Utilize Tailwind CSS and Material UI for responsive and visually appealing user interfaces on both mobile and desktop devices.
 - **Password Encryption using Bcrypt:** Securely store user passwords by hashing and salting them using the bcrypt library.
 - **Image Storage with Cloudinary:** Store and manage product images using Cloudinary for efficient image storage and retrieval.
-- **Added an interactive chatbot to the website for addressing quick customer queries and improving user support experience.
+-   Added an interactive chatbot to the website for addressing quick customer queries and improving user support experience.
 ## Requirements
 
 Before you begin, ensure you have met the following requirements:
