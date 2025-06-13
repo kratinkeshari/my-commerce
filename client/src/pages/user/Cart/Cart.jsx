@@ -58,7 +58,7 @@ const Cart = () => {
     return (
         <>
             <ScrollToTopOnRouteChange />
-            <SeoData title="Shopping Cart | Flipkart.com" />
+            <SeoData title="Shopping Cart | AlphaCart.com" />
             <main className="w-full pt-5">
                 {/* <!-- row --> */}
                 <div className="flex flex-col sm:flex-row gap-3.5 w-full sm:w-11/12 mt-0 sm:mt-4 m-auto ">

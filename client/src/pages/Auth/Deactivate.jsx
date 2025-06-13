@@ -47,10 +47,10 @@ const Deactivate = () => {
                         <div className="text-[12px] text-slate-500 p-4">
                             <ul className="list-disc leading-8">
                                 <li>
-                                    You are logged out of your Flipkart Account
+                                    You are logged out of your AlphaCart Account
                                 </li>
                                 <li>
-                                    Your public profile on Flipkart is no longer
+                                    Your public profile on AlphaCart is no longer
                                     visible
                                 </li>
                                 <li>
@@ -66,7 +66,7 @@ const Deactivate = () => {
                                 </li>
                                 <li>
                                     You will be unsubscribed from receiving
-                                    promotional emails from Flipkart
+                                    promotional emails from AlphaCart
                                 </li>
                             </ul>
                         </div>

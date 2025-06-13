@@ -1,6 +1,6 @@
 export const applianceProducts = [
     {
-        image: "https://rukminim2.flixcart.com/image/400/400/kfeamq80/refrigerator-new/c/t/h/468asmqs-na-marq-by-flipkart-original-imafvufgxpd8bged.jpeg?q=70",
+        image: "https://rukminim2.flixcart.com/image/400/400/kfeamq80/refrigerator-new/c/t/h/468asmqs-na-marq-by-AlphaCart-original-imafvufgxpd8bged.jpeg?q=70",
         name: "Marq Refrigerators",
         offer: "From ₹8999",
         tag: "Buy Now",
