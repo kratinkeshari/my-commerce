@@ -89,7 +89,7 @@ const Shipping = () => {
 
     return (
         <>
-            <SeoData title="Flipkart: Shipping Details" />
+            <SeoData title="AlphaCart: Shipping Details" />
             <main className="w-full pt-8">
                 {/* <!-- row --> */}
 

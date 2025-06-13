@@ -27,7 +27,7 @@ const ForgotPassword = () => {
     //form submission handler
     const handleFormSubmit = async (e) => {
         e.preventDefault();
-        if (email === "test@test.com" || email === "store@flipkart.com") {
+        if (email === "test@test.com" || email === "store@AlphaCart.com") {
             toast.error(
                 "Functionality is disabled for testing account! Please create a new one!"
             );
@@ -227,7 +227,7 @@ const ForgotPassword = () => {
                                         <div className="text-[9px] text-slate-500 ">
                                             <p>
                                                 By continuing, you agree to
-                                                Flipkart's Terms of Use and
+                                                AlphaCart's Terms of Use and
                                                 Privacy Policy.
                                             </p>
                                         </div>
